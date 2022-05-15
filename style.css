@@ -1,0 +1,167 @@
+/*
+MAIN COLORS : #15aabf
+GREY COLOR : #343a40
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------- */
+
+/* GENERAL STYLE */
+
+/* ---------------------- */
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+}
+
+header,
+section{
+    margin-bottom: 48px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 0;
+    column-gap: 20px;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 24px;
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+h2 {
+    margin-bottom: 48px;
+    font-size: 36px;
+  }
+
+.btn:link,
+.btn:visited{
+    border-radius: 10px;
+    background-color: #15aabf;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.btn--big{
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+.header-text{
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+header img{
+    border: 20px solid #fff;
+    width: 100%;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, .2);
+    /* border-radius: 10px; */
+}
+
+.grid-3-cols{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    
+}
+
+.grid-3-cols .features-title{
+    margin-bottom: 20px;
+}
+
+.grid-3-cols img{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+/* FEATURE */
+.features-icon{
+    stroke: #15aabf;
+    width: 32px;
+    height: 32px;
+}
+
+.testimonial-box{
+    grid-column: 2 / -1;
+}
+.testimonial-section{
+    background-color: #15aabf;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+.testimonial-section img{
+    border-radius: 10px;
+    
+}
+
+.best-selling-chair{
+   
+}
+
+.chair-box{
+    padding: 24px;
+    
+}
+
+.chair{
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.chair-details li{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    line-height: 2.5;
+}
+
+.chair-price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.chair-price a{
+    text-decoration: none;
+   
+}
+
+.btn--small{
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.testimonial-text{
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+footer{
+    margin: 40px 0;
+}
+
